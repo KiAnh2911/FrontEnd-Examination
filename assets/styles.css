@@ -149,17 +149,16 @@ header .wrp .right .header_start {
   justify-content: center;
 }
 .all .simplify .text .bottom .btn {
-  padding: 12px 18px;
   border: 1px solid #3c64b1;
-  background: #3c64b1;
-  color: #fff;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
+  padding: 12px 18px;
 }
+.all .simplify .text .bottom .btn.active,
 .all .simplify .text .bottom .btn:hover {
-  color: #3c64b1;
-  background: #ebecec;
+  background: #3c64b1;
+  color: #fff;
 }
 .all .simplify .text .bottom .btn.start {
   margin-right: 24px;
