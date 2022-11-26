@@ -1,0 +1,214 @@
+@media (min-width: 992px) {
+  header .wrp .right .menu {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  header,
+  .all .grow,
+  .all .fost,
+  .all .exer,
+  .all .list {
+    padding: 0 20px;
+  }
+  header .wrp .menu {
+    display: block;
+  }
+  header .wrp nav {
+    position: fixed;
+    height: 100%;
+    width: 60%;
+    z-index: 4;
+    background: #333;
+    top: 0;
+    right: 0;
+    display: none;
+    padding: 20px 15px;
+  }
+  header .wrp nav a {
+    display: block;
+    border-bottom: 2px solid #ececec;
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+  }
+  header .wrp .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    display: none;
+  }
+  .all .simplify .text .title {
+    font-size: 28px;
+    line-height: 36px;
+    padding-bottom: 20px;
+  }
+  .all .simplify .text .desc {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 30px;
+  }
+  .all .simplify .text .bottom .btn {
+    padding: 9px 13px;
+  }
+  .all .fost .wrp .WImg {
+    width: 320px;
+  }
+  .all .fost .wrp .right {
+    width: calc(100% - 350px);
+  }
+  .all .fost .wrp .right .title_fost {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .all .fost .wrp .right .desc_fost {
+    padding-bottom: 35px;
+  }
+  .all .exer .wrp {
+    padding-bottom: 70px;
+  }
+  .all .exer .wrp .left {
+    width: calc(100% - 350px);
+  }
+  .all .exer .wrp .WImg {
+    width: 320px;
+  }
+  .all .exer .wrp .left .title_exer {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .all .exer .wrp .left .group_box .box .desc_exer {
+    -webkit-line-clamp: 4;
+  }
+
+  .all .list .wrp .group_item .items {
+    width: calc(50% - 15px);
+  }
+  .all .list .wrp {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .all .grow .wrp .group_box .box {
+    width: calc(50% - 15px);
+  }
+  .all .simplify .text .title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .all .simplify .text .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .all .fost .wrp,
+  .all .grow .wrp {
+    padding-bottom: 70px;
+  }
+  .all .fost .wrp .WImg,
+  .all .fost .wrp .right {
+    width: 100%;
+  }
+  .all .fost .wrp .right {
+    padding-top: 30px;
+  }
+  .all .exer .wrp .left {
+    padding-bottom: 30px;
+  }
+  .all .exer .wrp .left,
+  .all .exer .wrp .WImg {
+    width: 100%;
+  }
+}
+@media (max-width: 471px) {
+  header .wrp .right .header_login {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  header .wrp .right .header_start {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px;
+  }
+  .all .simplify {
+    padding-bottom: 30px;
+  }
+  .all .simplify .text .title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .all .simplify .text .desc {
+    display: none;
+  }
+  .all .simplify .text .bottom .btn {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .all .simplify .text .bottom .btn.start {
+    margin-right: 10px;
+  }
+  .all .grow .wrp {
+    padding-bottom: 30px;
+  }
+  .all .grow .wrp .title {
+    font-size: 22px;
+    padding-bottom: 25px;
+  }
+  .all .grow .wrp .desc {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 20px;
+  }
+  .all .grow .wrp .group_box .box {
+    width: 100%;
+  }
+  .all .grow .wrp .group_box .box .title_box {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .all .fost .wrp,
+  .all .exer .wrp {
+    padding-bottom: 30px;
+  }
+  .all .fost .wrp .right {
+    padding-top: 20px;
+  }
+  .all .fost .wrp .right .title_fost {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .all .fost .wrp .right .desc_fost {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  .all .exer .wrp .left .title_exer {
+    font-size: 22px;
+    line-height: 32px;
+    padding-bottom: 25px;
+  }
+  .all .exer .wrp .left .group_box .box {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .all .exer .wrp .left .group_box .box img {
+    display: table;
+    margin: 0 auto;
+  }
+  .all .list .wrp .group_item .items {
+    width: 100%;
+  }
+}
